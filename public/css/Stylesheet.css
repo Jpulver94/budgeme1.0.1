@@ -55,10 +55,6 @@
 }
 
 
-.home-img img {
-  position: relative;
-  width: 100%;
-}
 
 #garden-name {
   position: absolute;
@@ -78,14 +74,14 @@
   font-size: 150%;
   font-weight: bold;
   position: absolute;
-  top: 75px;
-  right: 250px;
+  top: 100px;
+  right: 100px;
   width:25%;
   padding-bottom: 20px;
 }
 
 #task-list {
-  top: 300px;
+  top: 350px;
 }
 
 li {
@@ -97,15 +93,23 @@ body {
   background-color: rgba(43,150,153,.5);
 }
 
-  #custom-handle {
-    width: 3em;
-    height: 1.6em;
-    top: 50%;
-    margin-top: -.8em;
-    text-align: center;
-    line-height: 1.6em;
-  }
+#custom-handle {
+  width: 3em;
+  height: 1.6em;
+  top: 50%;
+  margin-top: -.8em;
+  text-align: center;
+  line-height: 1.6em;
+}
 
-  .slider {
-  	width: 35%;
-  }
+.slider {
+	width: 35%;
+}
+
+canvas {
+  border: 1px solid #d3d3d3;
+  background-color: #f1f1f1;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
